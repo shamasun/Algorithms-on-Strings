@@ -18,7 +18,7 @@ def trie_contruct(patterns):
 
 if __name__ == '__main__':
     patterns = sys.stdin.read().split()[1:]
-    tree = trie_contruct(myInput)
+    tree = trie_contruct(patterns)
     for node in tree:
         for c in tree[node]:
             print("{}->{}:{}".format(node, tree[node][c], c))
