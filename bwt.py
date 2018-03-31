@@ -1,4 +1,3 @@
-# python3
 import sys
 
 def bwt(text):
